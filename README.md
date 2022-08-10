@@ -39,9 +39,9 @@ This repository contains all effort put into investigate the No_show_appointment
 The Date column(appointment_day and scheduled_day) were in UTC format. My plan was to get the time interval and not days interval, but somehow I could'nt do that as I was getting negative time interval and had to opt for days interval.
 
 ## References
-https://stackoverflow.com/
-https://medium.com/
-https://www.geeksforgeeks.org/
-https://practicaldatascience.co.uk/
-https://www.codegrepper.com/
+https://stackoverflow.com/ <br/>
+https://medium.com/ <br/>
+https://www.geeksforgeeks.org/ <br/>
+https://practicaldatascience.co.uk/ <br/>
+https://www.codegrepper.com/ <br/>
 https://towardsdatascience.com/
