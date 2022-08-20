@@ -27,13 +27,20 @@ This repository contains all effort put into investigate the No_show_appointment
 > 6. Which nighbourhood has the highest show count and highest no_show count?
 
 ## Conclusions
+
 > To answer the first question, there are relationships mostly negative between my feature of interest(no_show) and other features. There are some positive relationship, but I can't make much deduction from the heatmap. The reason for this is because the correlation heatmap cannot do justice to visualizing the relationship between each features of the variables. This is probably because most of the features are categorical.<br/>
+
 > From question 2 'Does gender affect if a patient will show up or not?'. From the bar plot, it is obvious that the difference between the percentage of females to males that did not show up is very small. Therefore, it cannot be declared that gender affect chance of showing up.<br/>
+
 > For question 3, Age did determine if a patient will show up for the appointment. From the plots, it is obvious that age does affect the if a patient will keep appointment or not. <br/>
+
 > Time difference affect the chance of keeping up with appointment. Those with appointment time frame within the day the schedule was made tend to show up that those whose appointment date is far from the day they made the appointment. It may be that they have forgotten that they have an appointment due to the long time lapse.<br/>
+
 >Scholarship does not really affect no ahow rate, althoug, a greater percentage of those with scholarship tend to show up for their appointment<br/>
+
 > People in certain neighbourhood also tend to show up for appointment than others. This may be due to the proximity of their neigbourhood to the hospital.<br/>
->Most of the deductions from this analysis are based on assumptions, a machine learning model can help to provide more accurate deductions and insight.
+
+> Most of the deductions from this analysis are based on assumptions, a machine learning model can help to provide more accurate deductions and insight.
 
 ## Limitation
 The Date column(appointment_day and scheduled_day) were in UTC format. My plan was to get the time interval and not days interval, but somehow I could'nt do that as I was getting negative time interval and had to opt for days interval.
