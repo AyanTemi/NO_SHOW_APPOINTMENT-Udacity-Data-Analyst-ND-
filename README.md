@@ -43,7 +43,7 @@ This repository contains all effort put into investigate the No_show_appointment
 > Most of the deductions from this analysis are based on assumptions, a machine learning model can help to provide more accurate deductions and insight.
 
 ## Limitation
-The Date column(appointment_day and scheduled_day) were in UTC format. My plan was to get the time interval and not days interval, but somehow I could'nt do that as I was getting negative time interval and had to opt for days interval.
+> The Date column(appointment_day and scheduled_day) were in UTC format. My plan was to get the time interval and not days interval, but somehow I could'nt do that as I was getting negative time interval and had to opt for days interval.
 
 ## References
 https://stackoverflow.com/ <br/>
